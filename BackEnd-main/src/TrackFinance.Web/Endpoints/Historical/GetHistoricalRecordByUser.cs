@@ -15,7 +15,7 @@ public class GetHistoricalRecordByUser : EndpointBaseAsync
 
   public GetHistoricalRecordByUser(IRepository<Transaction> repository)
   {
-    _repository = repository;
+    _repository = repository; 
   }
 
   [Produces(MediaTypeNames.Application.Json)]
